@@ -1,0 +1,13 @@
+.bg{
+    background-color: rgba(209, 213, 213, 0.7);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.bg-dropdown{
+    background-color: rgba(209, 213, 213, 0.7);
+}
+
+a.rounded-1:hover{
+    color: white;
+}
+

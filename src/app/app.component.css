@@ -1,0 +1,9 @@
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: unset;
+}
+
+body{
+    margin: 0;
+}

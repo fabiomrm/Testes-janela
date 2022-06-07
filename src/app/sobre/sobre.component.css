@@ -1,0 +1,23 @@
+#bg-color-red {
+    background-color: #FE543B;
+}
+
+#bg-color-blue {
+    background-color: #00D7EC;
+}
+
+h2, p, h5 {
+    color: white;
+}
+
+#bg-sobre{
+    background-color: var(--color-yellow);
+}
+
+span{
+    font-weight: bold;
+}
+
+.it{
+    font-style: italic;
+}

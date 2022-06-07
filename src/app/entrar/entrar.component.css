@@ -1,0 +1,75 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.container-left,
+.container-right {
+  flex: 1;
+}
+
+.container-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-area {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--color-yellow);
+  background-color: rgba(209, 213, 213, 0.7);
+  padding: 2rem;
+}
+
+.form-area h1 {
+  text-transform: uppercase;
+  text-size: 30px;
+  color: var(--color-yellow);
+}
+
+.form-area .btn-main {
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+  width: 100%;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.form-area input {
+  border: 1px solid var(--color-yellow);
+}
+
+.form-area input::placeholder {
+  color: var(--color-yellow);
+}
+
+.form-area p {
+  text-align: center;
+}
+.form-area p > a {
+  color: var(--color-gray);
+}
+
+.container-right p {
+  color: var(--color-white);
+  font-weight: 800;
+  font-size: 33px;
+}
+
+#bg-img {
+  background-image: url("../../assets/img/home-bg.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.link-entrar {
+  color: var(--color-yellow);
+}

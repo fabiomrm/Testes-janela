@@ -1,0 +1,62 @@
+#bg-img{
+    background-image: url("../../assets/img/bg-entrar.avif");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-area{
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.form-area input::placeholder {
+    color: var(--color-yellow);
+  }
+
+.cadastrar-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-cadastrar{
+    color: var(--color-yellow);
+}
+.janela-viva{
+    display: flex;
+    justify-content: right;
+    width: 60;
+    margin-top: 15px;  
+    padding-right: 5%; 
+   
+}
+.icone{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding-right: 3%;
+    
+}
+.fs-18{
+    font-size: 18pt;
+}
+
+.border-r{
+    border-radius: 15px;
+}
+
+.cor-select{
+    color: var(--color-yellow);
+}
+
+.btn-cad{
+    color: var(--color-white);
+    border-radius: 15px;
+}
