@@ -1,0 +1,14 @@
+.publish-section {
+}
+
+.textarea {
+  width: 100%;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 0 0 1px var(--color-yellow);
+  padding: 0.3rem 1rem;
+}
+
+.textarea::placeholder {
+  padding: 0.6rem 1rem;
+}

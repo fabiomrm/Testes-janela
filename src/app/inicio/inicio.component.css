@@ -82,19 +82,9 @@
 
 /* INÍCIO DA SEÇÃO DE ESCREVER UM COMENTÁRIO */
 .publish-section {
-  padding: 0 0.5rem;
-}
-
-.textarea {
-  border-radius: 20px;
-  border: 0;
-  box-shadow: 0 0 0 1px var(--color-yellow);
-  width: 100%;
-  padding: 0.3rem 1rem;
-}
-
-.textarea::placeholder {
-  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
 }
 
 .media-upload-section {
@@ -111,12 +101,6 @@
 /* INÍCIO DA SEÇÃO DO COMPONENTE DE PUBLICAÇÃO */
 .card-header {
   display: flex;
-}
-
-.card-image-border.small img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
 }
 
 .card-header-user-info {
@@ -179,4 +163,9 @@
   justify-content: center;
   align-items: flex-end;
   gap: 0.2rem;
+}
+
+.input-comentario-wrapper {
+  display: flex;
+  border: 1px solid #f00;
 }
