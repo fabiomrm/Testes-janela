@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { InputComentarioComponent } from './input-comentario/input-comentario.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { InputComentarioComponent } from './input-comentario/input-comentario.co
     SobreComponent,
     InicioComponent,
     UserProfileComponent,
-    InputComentarioComponent
+    InputComentarioComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
